@@ -11,6 +11,21 @@
     integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" 
     integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <style>
+      
+      .th {
+       background-color:white;
+       color: white;
+   }
+
+   .table tbody tr:hover {
+       background-color:white;
+   }
+</style>
 </head>
 <body>
     <h4>Visit cities with Sai Priya Jetti</h4>
@@ -47,6 +62,84 @@
           </div>
       </div>
     </div>
+    <div class="container">
+      <caption><b>Table about Cities, Rivers, and Trees based on Letters</b></caption>
+      <table class="table table-striped table-info">
+          <thead class="table-dark">
+              <tr>
+                  <th scope="col">Letter</th>
+                  <th scope="col">City</th>
+                  <th scope="col">River</th>
+                  <th scope="col">Tree</th>
+              </tr>
+          </thead>
+          <tbody>
+              <tr>
+                  <th scope="row">J</th>
+                  <td>Jersey</td>
+                  <td>Hudson</td>
+                  <td>Oak</td>
+              </tr>
+              <tr>
+                <th scope="row">E</th>
+              <td>Edinburg</td>
+              <td>Water of Leith</td>
+              <td>Linden</td>
+          </tr>
+          <tr>
+              <th scope="row">T</th>
+              <td>Texas</td>
+              <td>Pecos River</td>
+              <td> Cedar</td>
+          </tr>
+          <tr>
+              <th scope="row">T</th>
+              <td>Dallas</td>
+              <td>Trinity</td>
+              <td>Pecan</td>
+          </tr>
+          <tr>
+              <th scope="row">I</th>
+              <td>Illinois</td>
+              <td>Ohio River</td>
+              <td>Linden</td>
+          </tr>
+          <tr>
+              <th scope="row">S</th>
+              <td>Southlake</td>
+              <td>San Gabriel</td>
+              <td>Grapes</td>
+          </tr>
+      </tbody>
+  </table>
+</div>
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <a class="navbar-brand" href="#">BUTTONS SECTION</a>
+</nav>
+<div class="container mt-5">
+  <div class="btn-toolbar" role="toolbar" aria-label="Button Toolbar">
+
+      <div class="btn-group mr-2" role="group" aria-label="Success Buttons">
+          <button type="button" class="btn btn-lg btn-success">J</button>
+          <button type="button" class="btn btn-lg btn-success">E</button>
+          <button type="button" class="btn btn-lg btn-success">T</button>
+      </div>
+      <div class="btn-group mr-2" role="group" aria-label="Warning Buttons">
+          <button type="button" class="btn btn-lg btn-warning">T</button>
+          <button type="button" class="btn btn-lg btn-warning">I</button>
+      </div>
+      <div class="btn-group" role="group" aria-label="Danger Buttons">
+          <button type="button" class="btn btn-lg btn-danger">S</button>
+      </div>
+  </div>
+</div>
+<br>
+<br>
+
+
+<br>
+<br>
+
 
 </body>
 </html>
